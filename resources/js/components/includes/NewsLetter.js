@@ -61,7 +61,7 @@ class NewsLetter extends  Component{
                                 </div>
                                 <div className="col-lg-3 col-xs-b10 col-lg-b0">
                                     <div className="cell-view empty-space col-lg-b50">
-                                        <div className="simple-article size-3 light transparent">ONLY 200 PROMO CODES ON DISCOUNT!</div>
+                                        <div className="simple-article size-3 light transparent"> ONLY 200 PROMO CODES ON DISCOUNT!</div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4">

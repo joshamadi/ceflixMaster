@@ -61,10 +61,19 @@ class Header extends  Component{
                                         <div className="entry"><b>email:</b> <Link to="/mailto:office@exzo.com">office@exzo.com</Link></div>
                                     </div>
                                     <div className="col-md-7 col-md-text-right">
-                                        <div className="entry"><Link className="open-popup" data-rel="1"><b>login</b></Link>&nbsp; or &nbsp;<Link
-                                            className="open-popup" data-rel="2"><b>register</b></Link></div>
-                                        <div className="entry hidden-xs hidden-sm"><Link to="/#"><i className="fa fa-heart-o"
-                                                                                                    aria-hidden="true"></i></Link></div>
+
+
+                                        <div className="entry">
+                                            <Link className="open-popup" data-rel="1"><b>login</b></Link>&nbsp; or &nbsp;
+                                            <Link className="open-popup" data-rel="2"><b>register</b></Link>
+                                        </div>
+
+                                        <div className="entry hidden-xs hidden-sm">
+                                            <Link to="/#">
+                                            <i className="fa fa-heart-o" aria-hidden="true"></i>
+                                            </Link>
+                                        </div>
+
                                         <div className="entry hidden-xs hidden-sm cart">
                                             <Link to="/cart.html">
                                                 <b className="hidden-xs">Your bag</b>

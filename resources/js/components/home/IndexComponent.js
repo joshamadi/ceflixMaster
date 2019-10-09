@@ -13,6 +13,7 @@ import HomeSliders from "./HomeSliders";
 import Footer from "../includes/Footer";
 import Header from "../includes/Header";
 import NewsLetter from "../includes/NewsLetter";
+import Register from "../pages/Register";
 
 
 export default class IndexComponent extends Component {
@@ -25,7 +26,7 @@ export default class IndexComponent extends Component {
         
         return (
             <div id="content-block">
-              
+
                <Header/>
 
                 <div className="header-empty-space"></div>
@@ -35,6 +36,7 @@ export default class IndexComponent extends Component {
                 <div className="grey-background">
                     <div className="empty-space col-xs-b40 col-sm-b80"></div>
                     <div className="container">
+
                         <div className="row">
                             <div className="col-md-9 col-md-push-3">
 
@@ -53,19 +55,12 @@ export default class IndexComponent extends Component {
 
                             <div className="col-md-3 col-md-pull-9">
 
-
                                 <PopularCategories/>
-
 
                                 <div className="row">
 
                                         <SideBanner/>
-
-
                                         <MostViewed/>
-
-
-
                                 </div>
 
                                 <div className="row">
@@ -75,6 +70,7 @@ export default class IndexComponent extends Component {
                                 </div>
 
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -83,6 +79,10 @@ export default class IndexComponent extends Component {
 
                 <Footer/>
             </div>
+
+
+
+
         );
     }
 }

@@ -44,6 +44,7 @@ class LatestProducts extends  Component{
         }
 
         if(this.state.httpstate == 2){
+
         return (
 
 
@@ -109,6 +110,9 @@ class LatestProducts extends  Component{
                 <div className="empty-space col-xs-b35 col-md-b70"></div>
 
             </React.Fragment>
+
+
+
 
         )}
 

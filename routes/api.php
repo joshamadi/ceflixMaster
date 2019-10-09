@@ -18,6 +18,8 @@ use Illuminate\Http\Request;
 //    return "I got here and it is a test tht will be deleted in future";
 //})->middleware('auth');
 
+
+
 Route::get('/search', 'SearchController@search')->name('search');
 
 Route::post('/user', 'UserController@reg_user')->name('register');
